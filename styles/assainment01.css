@@ -25,7 +25,7 @@
     padding: 17px 24px;
 }
 
-.section-main {
+.banner-header {
     width: 1440px;
     height: 652px;
     background-image: url(../images/Hero-bg.png);
@@ -33,30 +33,30 @@
     background-size: cover;
 }
 
-.section-img {
+.banner-img {
     position: absolute;
     width: 240.28px;
     height: 240px;
     padding: 26px 600px 386px;
 }
 
-.section-cover {
+.banner-cover {
     padding: 298px 221px 45px;
 }
 
-.section-title {
+.banner-title {
     font-size: 48px;
     font-weight: 800;
     text-align: center;
 }
 
-.section-description {
+.banner-text {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
 
-.section-btn {
+.banner-btn {
     width: 247px;
     height: 65px;
     border-radius: 8px;
@@ -68,3 +68,74 @@
     padding: 21px 24px 21px 24px;
     margin: auto 377px;
 }
+
+.section-header {
+    position: absolute;
+    width: 1000px;
+    height: 1300px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+    margin: 75px 152px 90px 120px;
+}
+
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-description {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
+    padding: 48px;
+}
+
+.section-description-more {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
+    padding: 48px;
+}
+
+.section-heading {
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.section-msg {
+    width: 468px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.section-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+}
+
+
